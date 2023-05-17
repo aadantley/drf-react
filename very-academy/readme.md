@@ -1,8 +1,8 @@
-# Readme
+# Read Me
 
-A simple django-rest-framework API with a simple React front-end.
+A simple django-rest-framework API with a simple React front-end, based on <https://www.youtube.com/watch?v=xWEIwgeASNY>.
 
-## TakeAways
+## Configuration Notes
 
 - use `npm init -y` and the folder setup for a react app inside of a django application instead of building the react app outside of the django project modules.
 - add the script below to the package.json file built by the `npm init` command:
@@ -34,6 +34,6 @@ A simple django-rest-framework API with a simple React front-end.
 
 ---
 
-## Experience TakeAway
+## Experience Take Away
 
 - implementing react as static files within a Django project has a number of tricky configuration steps, that may be avoided by setting up the api and frontend code separately and connecting them with the network calls.
